@@ -1,4 +1,4 @@
-<img width="2664" height="2116" alt="image" src="https://github.com/user-attachments/assets/5e4fc8f5-be44-4b7a-8e31-972f79a0e75d" /># 📊 End-to-End Customer Churn Analytics
+# 📊 End-to-End Customer Churn Analytics
 
 🚧 **Status: Active Development (Work in Progress)** 🚧
 
