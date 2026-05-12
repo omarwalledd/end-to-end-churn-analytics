@@ -1,4 +1,5 @@
 📊 End-to-End Customer Churn Project (SQL + Power BI + Python)
+
 ![Churn Analysis Dashboard](dashboardSummary.jpg)
 
 📌 What is this project about?
