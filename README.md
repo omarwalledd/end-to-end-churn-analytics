@@ -3,6 +3,7 @@
 🚧 **Status: Active Development (Work in Progress)** 🚧
 
 ## 📌 Project Overview
+![Churn Analysis Dashboard](Dashboard_Preview.png)
 This end-to-end data project aims to analyze customer behavior and predict churn using a complete data pipeline. The goal is to identify key factors leading to customer attrition and build a predictive machine learning model to flag high-risk users, enabling businesses to take proactive retention strategies.
 
 ## 🛠️ Tech Stack
