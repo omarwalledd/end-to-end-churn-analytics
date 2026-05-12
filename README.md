@@ -1,20 +1,25 @@
-# 📊 End-to-End Customer Churn Analytics
+📊 End-to-End Customer Churn Project (SQL + Power BI + Python)
 ![Churn Analysis Dashboard](dashboardSummary.jpg)
 
-🚧 **Status: Active Development (Work in Progress)** 🚧
+📌 What is this project about?
+The main goal of this project is to analyze customer data for a Telecom company to find out why customers are leaving (Churning) and predict who might leave next. This helps the business take action to keep their customers before they go to a competitor.
+🚀 How I built it:
+1. Data Engineering (SQL Server)
+I started by loading the raw data into SQL Server because it's better for handling data than Excel.
+Exploration: I wrote SQL queries to see the percentage of customers in different categories like gender, contract type, and state.
+Cleaning: I handled all the missing values (NULLs) using the ISNULL function to make the data clean for analysis.
+Views: I created specific SQL Views (vw_ChurnData and vw_JoinData) to make it easy to pull data into Power BI and later into Python for Machine Learning.
+2. Data Visualization (Power BI)
+I connected Power BI to my SQL database and built an interactive dashboard.
+Metrics: I used DAX to calculate important numbers like Total Churn, Churn Rate, and New Joiners.
+Insights: The dashboard shows that the highest churn happens with customers who have "Month-to-Month" contracts and those who leave for "Competitor Offers".
+User Experience: Added tooltips and filters so anyone can drill down into the data easily.
+3. Predictive Analytics (Python - In Progress)
+The final step is to use Machine Learning to predict future behavior.
+Model: I am using the Random Forest algorithm because it's very accurate for this kind of problem.
+Goal: To get a list of "High-risk" customers so the marketing team can give them special offers to stay.
+🛠️ Tools I used:
+SQL Server (SSMS) for data cleaning.
+Power BI for the dashboard.
+Python (Jupyter Notebook) for Machine Learning.
 
-## 📌 Project Overview
-This end-to-end data project aims to analyze customer behavior and predict churn using a complete data pipeline. The goal is to identify key factors leading to customer attrition and build a predictive machine learning model to flag high-risk users, enabling businesses to take proactive retention strategies.
-
-## 🛠️ Tech Stack
-* **Database & ETL:** SQL Server (SSMS) - Data ingestion, cleaning, and creating optimized production views.
-* **Data Visualization:** Power BI - Building interactive dashboards for exploratory data analysis (EDA) and churn profiling.
-* **Machine Learning:** Python (Jupyter Notebook) - Encoding categorical data and training a Random Forest algorithm for churn prediction.
-
-## 🚀 Pipeline Workflow
-1. **Data Engineering:** Extracting raw data into SQL Server, handling missing values, and structuring databases for analytical use.
-2. **Business Intelligence:** Designing Power BI dashboards to uncover trends in demographics, account info, and engagement metrics.
-3. **Predictive Analytics:** Utilizing Python to build and evaluate a machine learning model that forecasts future churners.
-4. **Actionable Insights:** Bridging the gap between raw data and business strategy by generating targeted "Churner Profiles".
-
-*Note: Code, SQL scripts, and dashboard files are currently being developed and will be uploaded soon.*
